@@ -1,0 +1,67 @@
+<!--20. Validate an HTML student registration form containing roll no, first name, middle name, last name, password, date of birth, mobile number, email address, marks obtained, grade point, with the following validation rules
+i) All the fields except for middle name cannot be empty.
+ii) Roll no. will be consisting of digits only
+iii) First name, middle name (if present), last name will be consisting of alphabets only.
+iv) Password length will be 6 to 14, containing alphabets, digits and special characters @, $, #, _ and must contain at least one alphabet, at least one digit and at least one of the special characters
+v) Age must be at least 18 years
+vi) Mobile number will be 10 digits not starting with zero.
+vii) Email must be in a valid email format
+viii) Marks obtained will consist of optional sign (+/-) and an integer.
+ix) Grade point will consist of an integer part and a decimal part.
+x) A student with negative marks or grade point less than 6.5 will not be allowed registration.-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>prog20</title>
+  <style>
+    .container {
+      max-width: 200px;
+      margin-left: 500px;
+      padding-left: 100px;
+    }
+
+    input {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    button {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 style="text-align: center;">Student Registration Form</h1>
+  <div class="container">
+    <form name="registrationForm" onsubmit="return validateForm()">
+      <label for="rollNo">Roll No - </label>
+      <input type="text" name="rollNo" placeholder="Enter Roll" />
+      <label for="firstName">First Name - </label>
+      <input type="text" name="firstName" placeholder="Enter First name" />
+      <label for="middleName">Middle Name - </label>
+      <input type="text" name="middleName" placeholder="Enter Middle Name" />
+      <label for="lastName">Last Name - </label>
+      <input type="text" name="lastName" placeholder="Enter Last Name" />
+      <label for="password">Password - </label>
+      <input type="password" name="password" placeholder="Enter password" />
+      <label for="dob">Date of Birth - </label>
+      <input type="date" name="dob" placeholder="Enter Date of birth" />
+      <label for="mobileNo">Mobile No - </label>
+      <input type="text" name="mobileNo" placeholder="Enter Mobile No" />
+      <label for="email">Email - </label>
+      <input type="email" name="email" placeholder="Enter Email Address" />
+      <label for="marks">Marks Obtained - </label>
+      <input type="text" name="marks" placeholder="Enter Marks" />
+      <label for="grade">Grade Point - </label>
+      <input type="text" name="grade" placeholder="Enter Grade" />
+      <button type="submit">submit</button>
+    </form>
+  </div>
+  <script src="formcheck.js"></script>
+</body>
+
+</html>

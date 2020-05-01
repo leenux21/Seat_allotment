@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="StyleSheetPage4.css">
+</head>
+<body>
+    <section id="headerSection">
+        <div id="header">
+            <img src="./wbjee.png" alt="wbjee.png">
+            <h2>West Bengal Joint Entrance Examinations Board</h2>
+            <p>MCA entrance test for all Engineering colleges in West Bengal(JECA)</p>
+        </div>
+    </section>
+    <div id="leftsidesection">
+        <img src="./wbjee.png" alt="Wbjee logo.png">
+        <p><strong>WEST BENGAL JOINT ENTRANCE EXAMINATIONS BOARD</strong>
+        </p>
+        <p>Address : 94/A Anandamath Ichapure<br> North 24 Parganas</p>
+        <p>Contact no : 9804191249</p>
+        <p>email us: wbjeeb@gmail.com</p>
+    </div>
+    <div id="container">
+        <div class="form-wrap">
+          <h1>Sign Up</h1>
+          <p>It's free and only takes a minute</p>
+          <form name="signup" onsubmit="return validateForm()" action="signup.php" method="POST">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" name="firstName" id="first-name" />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" name="lastName" id="last-name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" />
+            </div>
+            <div class="form-group">
+              <label for="password2">Confirm Password</label>
+              <input type="password" name="password2" id="password2" />
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
+            </p>
+          </form>
+        </div>  
+    </div>  
+    <footer>
+       <p>© Copyright 2011-2020 www.wbjeeb.nic.in. All rights reserved. Developed by Souvik Sarkar & Debleena Biswas.</p> 
+    </footer>
+    <script src="SignUpFormValidation.js"></script>
+</body>
+</html>

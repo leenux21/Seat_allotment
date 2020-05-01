@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+body{
+    background-image: url(./images-graduates-are-celebrating-graduation-put-hand-up_28283-7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1;
+}
+#navbar {
+    background-color: rgb(8, 8, 122);
+    color: #fff;
+    top:0;
+    padding: 0.9rem;
+}
+#navbar ul{
+    display:flex;
+    list-style: none;
+}
+#navbar ul li a{
+    color: #fff;
+    padding: 0.85rem;
+    margin: 0 0.25rem;
+    text-decoration: none;
+    margin-left: 160px;
+    font-size: large;
+    transition:all 0.4s ease-in;
+}
+#navbar ul li a:hover{
+    background:rgb(18, 135, 212)
+
+}
+#leftsidesection{
+    position: absolute;
+    background:linear-gradient(180deg,blue,rgb(20, 20, 20));
+    padding: 10px 10px 10px 10px;
+    margin-right: 1325px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color:white;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 10px;
+    border-style: solid;
+    box-shadow: 2px 2px 5px black;
+    line-height: 1.4em;
+}
+#aboutus{
+  position: absolute;
+  top: 100px;
+  right: 70px;
+  text-align: center;
+  padding: 0px 20px 0px 300px;
+  line-height: 2em;
+  color:black;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+#aboutus h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 9px white;
+    padding-bottom: 40px;
+    border-bottom: solid;
+}
+footer{
+    position: relative;
+    text-align: center;
+    margin-top: 670px;
+    background-color:  #050788;
+    padding: 12px;
+    color:white;
+}
+marquee{
+    margin-top: -10px;
+    background-color:#083b75;
+    color: whitesmoke;
+    border-radius: 2px;
+    border: solid;
+    border-color:rgb(9, 9, 121);
+}
+#notice{
+    position: absolute;
+    background:linear-gradient(180deg,blue,rgb(20, 20, 20));
+    padding: 20px 20px 20px 20px;
+    margin-right: 1325px;
+    margin-left: 10px;
+    margin-top: 400px;
+    text-align: center;
+    border-radius: 5px;
+    color:white;
+    text-shadow: 2px 2px 5px black;
+    border-style: solid;
+    box-shadow: 2px 2px 5px black;
+    line-height: 1.4em;
+}
+#notice h3{
+    padding-bottom: 10px;
+    border-bottom: dotted;
+}
+#notice ul li{
+    list-style: none;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    padding: 0.2px;
+}
+#notice a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+#notice a:hover{
+    color: yellow;
+    border-radius: 5px;
+}
+p a{
+    text-decoration: none;
+    padding: 50px
+    background-color : rgb(64, 64, 158);
+}
+#tab{
+    text-align: center;
+    max-width: 200px;
+    padding-left: 200px;
+}

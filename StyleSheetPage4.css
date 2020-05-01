@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    background-image: url(./graduation1.jpg);
+    background-repeat: no-repeat;
+    background-size: 200vh;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    position: relative;
+    background:linear-gradient(180deg,blue, black);
+    padding: 18px;
+    border-bottom: solid 15px rgb(124, 117, 117);
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+#leftsidesection{
+    position: absolute;
+    background:linear-gradient(180deg,blue,rgb(20, 20, 20));
+    padding: 10px 10px 10px 10px;
+    margin-right: 1325px;
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 5px;
+    color:white;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 10px;
+    border-style: solid;
+    box-shadow: 2px 2px 5px black;
+    line-height: 1.4em;
+}
+footer{
+    position: relative;
+    text-align: center;
+    background-color:  #050788;
+    padding: 12px;
+    color:white;
+}
+#container{
+    line-height: 1;
+    color: #fff;
+    margin: 10px auto;
+    max-width: 400px;
+    padding: 10px;
+}
+.form-wrap {
+    background: #fff;
+    padding: 15px 25px;
+    color: #333;
+    border-radius: 7px;
+  }
+.form-wrap h1,
+.form-wrap p {
+    text-align: center;
+}
+.form-wrap .form-group {
+    margin-top: 15px;
+  }
+.form-wrap .form-group label {
+    display: block;
+    color: #666;
+}
+.form-wrap .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+}
+.form-wrap button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #073866;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.form-wrap button:hover {
+    background: #37a08e
+}
